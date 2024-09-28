@@ -5,4 +5,10 @@ class Rectangle:
   def __iter__(self):
     yield {'length': self.length}
     yield {'width': self.width}
-  
+  rect = Rectangle(5, 3)
+  for item in rect:
+    print(item)
+
+#output:
+{'length': 5}
+{'width': 3}
