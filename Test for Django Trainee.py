@@ -35,6 +35,3 @@ def my_handler(sender, instance, **kwargs):
     MyModel.objects.create(name="Another instance")
 with transaction.atomic():
     obj = MyModel.objects.create(name="First instance")
-
-
-Topic: Custom Classes in Python
